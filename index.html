@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>ToVanilla</title>
+<title>ＨａｐｐｙＮｅｗＹｅａｒ</title>
 </head>
 
 <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
@@ -56,18 +56,6 @@ p{ margin: 0; }
 
 <script type="text/javascript">
 $(function() {
-	// $('#yes').click(function(event) {
-	// 	modal('。(^_^)', function() {
-	// 		$('.page_one').addClass('hide');
-	// 		$('.page_two').removeClass('hide');
-	// 		// typeWrite();
-	// 		fireworks();
-			
-	// 	});
-	// });
-	// $('#no').click(function(event) {
-	// 	modal('YSM！', A);
-	// });
 	typeWrite();
 	fireworks();
 });
@@ -98,13 +86,13 @@ function modal(content, callback) {
 	});
 }
 
-var myWords = '在这个既特殊又平常的日子里，想和你说：\n愿你三冬暖，\n愿你春不寒，\n愿你天黑有灯，\n下雨有伞。\n愿你可以，忘掉所有的不愉快，\n喝想喝的酒，\n说想说的话，\n见想见的人，\n想来想去，\n总有千万种欢喜~~~';
+var myWords = '凡是过往皆是序章　\n\n\n\n所有将来皆为可盼　\n\n\n\n2022 \n\n平安喜樂~\n\n萬事勝意~\n\n祝你\n祝我 \n祝我們~~~       暴瘦！    暴富！   爆好看！！';
 var x = 0;
 var speed = 280;
 var current = 0;
 function typeWrite(){
 	$('.type_words').css({
-		"color":"white",
+		"color":"yellow",
 		"font-size":"30px",
 	});
 	$('.type_words').html(myWords.substring(0, x++)+'_');
@@ -120,23 +108,6 @@ function typeWrite(){
 <body>
 
 <div class="share_img"><img src="images/a8b.png" alt=""></div>
-
-<!-- <div class="page_one">
-	<div class="content">
-		<div class="text_wrapper">
-			<img src="images/a8.png" alt="">
-			<div class="text">
-				你愿意做我女朋友吗？
-			</div>
-		</div>
-	</div>
-	<div class="btn-groups">
-		<div class="heart-btn">
-			<div id="yes" class="btn btn-a"><span>愿意</span></div>
-		</div>
-		<div id="no" class="btn btn-b"><span>不愿意</span></div>
-	</div>
-</div> -->
 <div class="page_two hide">
 	<div class="type_words"></div>
 </div>
